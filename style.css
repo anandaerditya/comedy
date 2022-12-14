@@ -1,0 +1,162 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+}
+
+.second-navbar {
+    position: fixed !important;
+    top: -120px;
+    animation: navbarExit .3s ease-in-out;
+    background: #000;
+}
+
+.fixed-navbar {
+    top: 0;
+    animation: navbarEntrance .3s ease-in-out;
+}
+
+@keyframes navbarExit {
+    0% {top: 0px;}
+    100% {top: -120px;}
+}
+
+@keyframes navbarEntrance {
+    0% {top: -100px;}
+    100% {top: 0;}
+}
+
+
+.container{
+    max-width: 90%;
+    padding: 1rem;
+}
+.row{
+    display: flex;
+
+}
+.column{
+    color: #ffffff;
+}
+.column ul{
+    padding-left: 0px;
+    
+}
+.column ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 1rem;
+}
+.column ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+.columnleft{
+    margin-left: 0px;
+}
+.columncenter img{
+    width: 100px;
+    position: relative;
+    left: -45px;
+    margin-bottom: 16px;
+
+}
+.columnright {
+    margin-right: 0px;
+}
+#landingsection {
+    height: 300px;
+    width: 500px;
+    color: antiquewhite;
+    margin-left: 150px;
+    font-size: 40px;
+    position: relative;
+    margin-top: 200px;
+}
+.owl-carousel{
+    position: relative;
+    top: -114px;
+}
+#gambarlanding1{
+    background: url(john-fornander-7oCKwO0TPhE-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 250px;
+    font-size: 35px;
+    padding-top: calc(100vh - 250px);
+    color: #ffffff;
+}
+#gambarlanding2{
+    background: url(michael-demoya-nrleaaHWOUw-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: left;
+    padding-left: 150px;
+    font-size: 35px;
+    padding-top: calc(100vh - 250px);
+    color: #ffffff;
+}
+#gambarlanding3{
+    background: url(daniel-adesina-0kOjMo7jYJc-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: left;
+    padding-left: 150px;
+    font-size: 35px;
+    padding-top: calc(100vh - 250px);
+    color: #ffffff;
+}
+#card-body{
+    width: 100%;
+    height: 100vh;
+    color: #ffffff !important;
+}
+
+.container {
+    padding: 2rem 0rem;
+}
+  
+@media (min-width: 576px) {
+    .modal-dialog {
+      max-width: 400px;
+}
+.modal-dialog .modal-content {
+      padding: 1rem;
+}
+}
+.modal-header .close {
+    margin-top: -1.5rem;
+}
+  
+.form-title {
+    margin: -2rem 0rem 2rem;
+}
+  
+.btn-round {
+    border-radius: 3rem;
+}
+  
+.delimiter {
+    padding: 1rem;
+}
+  
+.social-buttons .btn {
+    margin: 0 0.5rem 1rem;
+}
+  
+.signup-section {
+    padding: 0.3rem 0rem;
+}
